@@ -1,14 +1,11 @@
-﻿using Prism.Services.Dialogs;
+﻿namespace RaceControl.Views;
 
-namespace RaceControl.Views
+public partial class VideoDialogWindow : IDialogWindow
 {
-    public partial class VideoDialogWindow : IDialogWindow
-    {
-        public IDialogResult Result { get; set; }
+    public IDialogResult Result { get; set; }
 
-        public VideoDialogWindow()
-        {
-            InitializeComponent();
-        }
+    public VideoDialogWindow()
+    {
+        InitializeComponent();
     }
 }
